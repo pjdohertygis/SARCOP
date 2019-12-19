@@ -3,6 +3,7 @@ This is a GitHub page for recording and resolving issues related to the SAR and 
 
 # Links
 - Survey123 Deployment Kit https://www.arcgis.com/home/item.html?id=7a3371cd98224827b51e4f17205d6276#overview
+- Hub Site (new) https://sargis-napsg.hub.arcgis.com/
 - Story Map https://napsg.maps.arcgis.com/apps/MapSeries/index.html?appid=71f7501c36d34dfdaf8a81b424806033
 - YouTube Playlist https://www.youtube.com/playlist?list=PLtl2mJ4_4VyAZCLUQXzia_9bPVRV91co4
 
