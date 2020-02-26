@@ -12,7 +12,6 @@ This is a GitHub page for recording and resolving issues related to the SAR and 
 - Added A Follow-Up Question for taking action on waypoints like Victim Detected, Victim Confirmed, Human Remains Detected, or any other waypoints that would typically require further action. https://github.com/pjdohertygis/SARandFirstResponderSurvey/issues/31
 - Added A Review Status Question for vetting data before being sent to external stakeholders. https://github.com/pjdohertygis/SARandFirstResponderSurvey/issues/7
 - Removed the Patient Identification field because it was causing technical issues on the backend (prevented deploying multiple surveys from the source feature layer) and it was also a potential policy issue for agencies that cannot collect PII without prohibitive restrictions. https://github.com/pjdohertygis/SARandFirstResponderSurvey/issues/16
-- Reverse Geocoding for pulling approximate address data (when online). https://github.com/pjdohertygis/SARandFirstResponderSurvey/issues/26
 - Added an Operational Period field (optional).  https://github.com/pjdohertygis/SARandFirstResponderSurvey/issues/13
 
 See the closed issues page for a full list https://github.com/pjdohertygis/SARandFirstResponderSurvey/issues?q=is%3Aissue+is%3Aclosed
