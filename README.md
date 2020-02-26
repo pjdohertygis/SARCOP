@@ -17,4 +17,4 @@ This is a GitHub page for recording and resolving issues related to the SAR and 
 See the closed issues page for a full list https://github.com/pjdohertygis/SARandFirstResponderSurvey/issues?q=is%3Aissue+is%3Aclosed
 
 ## Updates to Survey123 App (by Esri)
-- You can now use Standard Map Types via Settings (See Doc) and this allows you to see the web map from the basemap switcher. Now you can see your waypoints collected, tracklines, and assignments areas, etc.
+- You can now use Standard Map Types via Settings (See Doc) and this allows you to see the web map from the basemap switcher. Now you can see your waypoints collected, tracklines, and assignments areas, etc. You must enable standard map types. This can be selected in either Survey123 Connect and the Survey123 field app by opening Settings > Map and selecting Standard.
