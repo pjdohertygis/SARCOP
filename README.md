@@ -2,7 +2,7 @@
 (Formerly known as SARandFirstResponderSurvey)
 This is a GitHub page for recording and resolving issues related to the Wide Area Search Templates for waypoints (points), tracklogs (lines), and assignments / incident areas (polygons). It includes a Survey123 zip file that you can download and use as a template to deploy a field application for recording the location of human interactions, hazards, damage surveys, and operation support.
 
-You may also want to see our Structure Specialist templates here https://github.com/pjdohertygis/StSTemplate
+You may also want to see our Structure Specialist templates here https://github.com/pjdohertygis/StSTemplates
 
 # Links
 - Survey123 Deployment Kit https://www.arcgis.com/home/item.html?id=ce2489e702604d578aa0fd8e10ab27ba
