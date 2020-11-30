@@ -1,4 +1,5 @@
-# Wide Area Search Template (Formerly known as SARandFirstResponderSurvey
+# Wide Area Search Template 
+(Formerly known as SARandFirstResponderSurvey)
 This is a GitHub page for recording and resolving issues related to the SAR and First Responder Survey123 Template. This is a Survey123 zip file that you can download and use as a template to deploy a field application for recording the location of human interactions, hazards, damage surveys, and operation support.
 
 # Links
