@@ -10,6 +10,9 @@ You may also want to see our Structure Specialist templates here https://github.
 - Story Map https://napsg.maps.arcgis.com/apps/MapSeries/index.html?appid=71f7501c36d34dfdaf8a81b424806033
 - YouTube Playlist https://www.youtube.com/playlist?list=PLtl2mJ4_4VyAZCLUQXzia_9bPVRV91co4
 
+# Version 8 Highlights (In Progress)
+To see all proposed changes and their status, see https://github.com/pjdohertygis/WideAreaSearchTemplates/issues?q=is%3Aissue+milestone%3A%22Version+8.0%22
+
 # Version 7 Highlights
 ## Changes to the XLSForm / Template (by SARWG)
 - Added A Follow-Up Question for taking action on waypoints like Victim Detected, Victim Confirmed, Human Remains Detected, or any other waypoints that would typically require further action. https://github.com/pjdohertygis/SARandFirstResponderSurvey/issues/31
