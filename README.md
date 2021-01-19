@@ -11,6 +11,23 @@ You may also want to see our Structure Specialist templates here https://github.
 - YouTube Playlist https://www.youtube.com/playlist?list=PLtl2mJ4_4VyAZCLUQXzia_9bPVRV91co4
 
 # Version 8 Highlights (In Progress)
+	• Preliminary Damage Assessment Categories - These are the categories used in the preliminary damage assessment (PDA) process. This is related to the observed damage, not the structural risk. This will help expedite disaster declaration and recovery processes for State and Local government.  https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/64 
+	• New Waypoints
+		○ Human Remains Detected https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/56 
+		○ Pet Evacuation (or Evac) https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/11 
+		○ Lifeline Report https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/98 
+		○ Searched  https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/77 [only used during Recon / Hasty when a damage assessment is not being done, vehicle search]
+			§ Indicate what has been searched
+			§ Just a way to mark something as searched when no other waypoint applies 
+			§ HELP WANTED: Are there other specific "features" that get searched often enough that it deserves a category?
+		○ 911 Call https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/63 (We decided to use targeted search for 911 calls)
+	• Comments fields reduced to a single field (General, Hazard, Human Interaction, etc.) https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/83 
+	• Removing Operational Period from interface (still in data) https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/87 
+	• Remove Follow-up Form icon since this is accounted for with the follow-up workflow https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/97 
+	• Original Waypoint Field - records the initial waypoint to keep a record when it changes (e.g., Survivor detected --> Rescue) https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/106
+
+
+
 To see all proposed changes and their status, see https://github.com/pjdohertygis/WideAreaSearchTemplates/issues?q=is%3Aissue+milestone%3A%22Version+8.0%22
 
 # Version 7 Highlights
