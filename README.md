@@ -12,7 +12,7 @@ You may also want to see our Structure Specialist templates here https://github.
 
 # Version 8 Highlights (In Progress)
 
-New Waypoints
+## New Waypoints
 - Preliminary Damage Assessment Categories - These are the categories used in the preliminary damage assessment (PDA) process. This is related to the observed damage, not the structural risk. This will help expedite disaster declaration and recovery processes for State and Local government.  https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/64 
 - Human Remains Detected https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/56 
 - Pet Evacuation https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/11 
@@ -20,7 +20,7 @@ New Waypoints
 - Searched  https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/77 
 [only used during Recon / Hasty when a damage assessment is not being done, vehicle search]
 
-Additional Modifications
+## Additional Modifications
 - Squad Number vs Squad Leader Name https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/66
 - Comments fields reduced to a single field (General, Hazard, Human Interaction, etc.) https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/83 
 - Removing Operational Period from interface (still in data) https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/87 
