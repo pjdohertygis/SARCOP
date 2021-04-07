@@ -5,9 +5,8 @@ This is a GitHub page for recording and resolving issues related to the Wide Are
 You may also want to see our Structure Specialist templates here https://github.com/pjdohertygis/StSTemplates
 
 # Links
-- Survey123 Deployment Kit https://www.arcgis.com/home/item.html?id=ce2489e702604d578aa0fd8e10ab27ba
-- Hub Site (new) https://sargis-napsg.hub.arcgis.com/
-- Story Map https://napsg.maps.arcgis.com/apps/MapSeries/index.html?appid=71f7501c36d34dfdaf8a81b424806033
+- Hub Site https://sargis-napsg.hub.arcgis.com/
+- Sandbox https://experience.arcgis.com/experience/9051a07ffd1947bbb395e9f9b4088f85/
 - YouTube Playlist https://www.youtube.com/playlist?list=PLtl2mJ4_4VyAZCLUQXzia_9bPVRV91co4
 
 # Version 8 Highlights 
