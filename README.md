@@ -10,7 +10,7 @@ You may also want to see our Structure Specialist templates here https://github.
 - Story Map https://napsg.maps.arcgis.com/apps/MapSeries/index.html?appid=71f7501c36d34dfdaf8a81b424806033
 - YouTube Playlist https://www.youtube.com/playlist?list=PLtl2mJ4_4VyAZCLUQXzia_9bPVRV91co4
 
-# Version 8 Highlights (In Progress)
+# Version 8 Highlights 
 
 ## New Waypoints
 - Preliminary Damage Assessment Categories - These are the categories used in the preliminary damage assessment (PDA) process. This is related to the observed damage, not the structural risk. This will help expedite disaster declaration and recovery processes for State and Local government.  https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/64 
