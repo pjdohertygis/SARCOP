@@ -10,6 +10,7 @@ You may also want to see our Structure Specialist templates here https://github.
 - YouTube Playlist https://www.youtube.com/playlist?list=PLtl2mJ4_4VyAZCLUQXzia_9bPVRV91co4
 
 # Version 8 Highlights 
+We are now using a "one stop shop" approach where teams only need to access one link for all apps. In addition, from the Battlecard Page you only need to access one QR Code. Survey123 and FieldMaps are accessible from an app launched in the QuickCapture project.
 
 ## New Waypoints
 - Preliminary Damage Assessment Categories - These are the categories used in the preliminary damage assessment (PDA) process. This is related to the observed damage, not the structural risk. This will help expedite disaster declaration and recovery processes for State and Local government.  https://github.com/pjdohertygis/WideAreaSearchTemplates/issues/64 
