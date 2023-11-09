@@ -5,9 +5,8 @@ This is a GitHub page for recording and resolving issues related to the Wide Are
 You may also want to see our Structure Specialist templates here https://github.com/pjdohertygis/StSTemplates
 
 # Links
-- Hub Site https://sargis-napsg.hub.arcgis.com/
-- Sandbox https://experience.arcgis.com/experience/9051a07ffd1947bbb395e9f9b4088f85/
-- YouTube Playlist https://www.youtube.com/playlist?list=PLtl2mJ4_4VyAZCLUQXzia_9bPVRV91co4
+- SARCOP Landing Page https://www.responsesystem.org/sarcop
+- Training Playlist https://screenpal.com/u/FcTw/SARCOPTraining
 
 # Version 8 Highlights 
 We are now using a "one stop shop" approach where teams only need to access one link for all apps. In addition, from the Battlecard Page you only need to access one QR Code. Survey123 and FieldMaps are accessible from an app launched in the QuickCapture project.
