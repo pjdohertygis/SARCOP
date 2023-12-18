@@ -1,4 +1,4 @@
-# Wide Area Search Templates
+# SAR Common Operating Platform (SARCOP)
 (Formerly known as SARandFirstResponderSurvey)
 This is a GitHub page for recording and resolving issues related to the Wide Area Search Templates for waypoints (points), tracklogs (lines), and assignments / incident areas (polygons). We have largley moved to MS Teams and MS Planner for this process.
 
