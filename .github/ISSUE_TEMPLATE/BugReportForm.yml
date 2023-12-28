@@ -2,7 +2,7 @@ name: Bug
 description: Report a bug in a product
 labels: ["1-BUG"]
 body:
-  - type: textarea
+   - type: textarea
     id: describe
     attributes:
       label: Describe the bug
