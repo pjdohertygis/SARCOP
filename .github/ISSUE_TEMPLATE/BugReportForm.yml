@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug in a product
+description: Report a potential bug in SARCOP Applications. 
 title: "[BUG] -  "
 labels: ["Bug"]
 body:
@@ -16,8 +16,9 @@ body:
         - QuickCapture
         - Field Maps
         - Dashboards
-        - Intel Manager 1.0
-        - Intel Manager 2.0 
+        - Intel Manager 1.0 (Web AppBuilder)
+        - Intel Manager 2.0 (Experience Builder)
+        - Other
   - type: textarea
     id: describe
     attributes:
