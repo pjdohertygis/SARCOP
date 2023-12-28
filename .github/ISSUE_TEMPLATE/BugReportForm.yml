@@ -1,22 +1,16 @@
-name: Bug
+name: Bug Report
 description: Report a bug in a product
-labels: ["1-BUG"]
+title: "[BUG] -  "
+labels: ["Bug"]
 body:
-  - type: textarea
-    id: describe
-    attributes:
-      label: Describe the bug
-      description: A clear description of the issue (optionally include before/after screenshots/GIFs).
-    validations:
-      required: true
-   - type: dropdown
+  - type: dropdown
     id: esri-product
     validations:
       required: true
     attributes:
-      label: Esri product
+      label: Which app?
       multiple: false
-      description: Select in which product you are observing this issue.
+      description: Select in which app you are observing this issue.
       options:
         - N/A
         - QuickCapture
@@ -24,6 +18,13 @@ body:
         - Dashboards
         - Intel Manager 1.0
         - Intel Manager 2.0 
+  - type: textarea
+    id: describe
+    attributes:
+      label: Describe the bug
+      description: A clear description of the issue (optionally include before/after screenshots/GIFs).
+    validations:
+      required: true
   - type: textarea
     id: expected
     attributes:
@@ -48,10 +49,25 @@ body:
     id: relevant
     attributes:
       label: Other Relevant Info
-      description: Browser, OS, mobile, stack traces, related issues, suggestions/resources on how to fix, etc.
-      placeholder: |
-        Windows 10, Chrome 97
-        `Uncaught TypeError: Cannot read property of undefined`
-        ...
+      description: (e.g., Browser, OS, version, related issues, suggestions/resources on how to fix, etc.)
+    validations:
+      required: false
+  - type: dropdown
+    id: priority-impact
+    validations:
+      required: true
+    attributes:
+      label: Priority impact
+      multiple: false
+      description: What is the impact to you or your team? Use discretion and only select "need" or "emergency" priorities for high user impact and quality issues. For instance, would someone notice, in a bad way, if this issue were present in the release?
+      options:
+        - p0 - not time sensitive
+        - p1 - time sensitive
+        - p2 - emergency!
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: How does the issue effect your team or your work? Can range from minor to blocking or prohibiting workflows.
     validations:
       required: false
