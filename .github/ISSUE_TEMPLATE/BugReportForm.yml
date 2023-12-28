@@ -2,18 +2,11 @@ name: Bug
 description: Report a bug in a product
 labels: ["1-BUG"]
 body:
-   - type: textarea
+  - type: textarea
     id: describe
     attributes:
       label: Describe the bug
       description: A clear description of the issue (optionally include before/after screenshots/GIFs).
-    validations:
-      required: true
-   - type: textarea
-    id: Application
-    attributes:
-      label: Application
-      description: Which application did you experience the issue with (e.g., QuickCapture, Field Maps, Dashboard, Intel Manager 1.0, Intel Manager 2.0, etc.)?
     validations:
       required: true
   - type: textarea
