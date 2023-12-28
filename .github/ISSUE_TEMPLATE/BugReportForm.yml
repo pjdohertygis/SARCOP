@@ -9,6 +9,21 @@ body:
       description: A clear description of the issue (optionally include before/after screenshots/GIFs).
     validations:
       required: true
+   - type: dropdown
+    id: esri-product
+    validations:
+      required: true
+    attributes:
+      label: Esri product
+      multiple: false
+      description: Select in which product you are observing this issue.
+      options:
+        - N/A
+        - QuickCapture
+        - Field Maps
+        - Dashboards
+        - Intel Manager 1.0
+        - Intel Manager 2.0 
   - type: textarea
     id: expected
     attributes:
