@@ -20,6 +20,13 @@ body:
         - Intel Manager 2.0 (Experience Builder)
         - Other
   - type: textarea
+    id: device
+    attributes:
+      label: Describe the Device, Operating System, and Browser
+      description: A clear description of the device(s), operating system, and browser (if relevant)
+    validations:
+      required: true
+  - type: textarea
     id: describe
     attributes:
       label: Describe the bug
