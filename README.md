@@ -11,3 +11,7 @@ This is a GitHub page for recording and resolving issues related to the Wide Are
 - SARCOP Landing Page https://www.responsesystem.org/sarcop
 - Training Playlist https://screenpal.com/u/FcTw/SARCOPTraining
 - National SAR Geospatial Coordination Group https://nsargc.napsgfoundation.org/
+
+Screenshot from SARCOP "Sandbox" Landing Page
+![image](https://github.com/pjdohertygis/WideAreaSearchTemplates/assets/4256979/a10c2744-e88a-4bb1-9bde-034bc8e520af)
+
