@@ -5,7 +5,7 @@ This is a GitHub page for recording and resolving issues related to the Wide Are
 # Related Projects and Repositories
 - Rapid Structure Triage https://github.com/pjdohertygis/RapidStructureTriage/
 - Reunification Form https://github.com/pjdohertygis/ReunificationForm
-- Deployment Order Tool
+- Deployment Order Tool (Internal use only) https://github.com/pjdohertygis/DeploymentOrderTool
 
 # Links
 - SARCOP Landing Page https://www.responsesystem.org/sarcop
