@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    .section {
+      margin-bottom: 15px;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .underline {
+      text-decoration: underline;
+    }
+    /* Adjust the width of the content */
+    .content {
+      max-width: 100%; /* Adjust the value as needed */
+    }
+    /* Ensure resource type text doesn't get cut off */
+    .resource-type {
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <p>
+      Hello @{triggerOutputs()?['body/feature/attributes/point_of_contact_for_incident_m']},
+    </p>
+    <p>
+      Thank you for submitting your @{triggerOutputs()?['body/feature/attributes/deployment_or_training']} Team Fact Sheet (@{triggerOutputs()?['body/eventType']}) for @{triggerOutputs()?['body/feature/attributes/team_name']}.
+    </p>
+  </div>
+  <div class="content">
+    <p class="bold">
+      Report Details:
+    </p>
+    <p>
+      <b>Report Time:</b> @{formatDateTime(addHours(addSeconds('1970-01-01',div(int(triggerOutputs()?['body/feature/attributes/team_status_report_time']), 1000)),-4), 'MM/dd/yyyy HH:mm')} Eastern (Zulu -4)<br>
+      <b>Resource:</b>  @{triggerOutputs()?['body/feature/attributes/resource_type_names']}<br>
+      <b>People:</b> @{triggerOutputs()?['body/feature/attributes/approximate_number_of_people_de']} people<br>
+      <b>Type:</b>  @{triggerOutputs()?['body/feature/attributes/tf_type']}<br>
+      <b>Status:</b>  @{triggerOutputs()?['body/feature/attributes/team_status']}<br>
+      <b>Location:</b>  @{triggerOutputs()?['body/feature/attributes/location_description']}<br>
+      <b>City &amp; Zip:</b>  @{triggerOutputs()?['body/feature/attributes/city']}, @{triggerOutputs()?['body/feature/attributes/zip']}<br>
+      <b>Notable Activities:</b>  @{triggerOutputs()?['body/feature/attributes/notable_activites']}<br>
+      <b>Transit Status:</b>  @{triggerOutputs()?['body/feature/attributes/transit_status']}<br>
+      <b>Current Destination:</b>  @{triggerOutputs()?['body/feature/attributes/current_destination']}<br>
+      <b>ETA Delay:</b>  @{triggerOutputs()?['body/feature/attributes/eta_delay']}<br>
+      <b>Current ETA:</b>  @{formatDateTime(addHours(addSeconds('1970-01-01',div(int(triggerOutputs()?['body/feature/attributes/team_status_report_time']), 1000)),-4), 'MM/dd/yyyy HH:mm')} Eastern (Zulu -4)<br>
+    </p>
+  </div>
+  <div class="content">
+    <p class="bold">
+      Updating Your Team Fact Sheet:
+    </p>
+    <p>
+      To update your status, access the existing Team Fact Sheet survey through this unique link: <a href="https://survey123.arcgis.com/share/f0c2ab27da8f49e6bf98d28926b416a0?mode=edit&amp;globalId=@{triggerOutputs()?['body/feature/result/globalId']}&amp;isOrgSignIn=false">Edit Survey</a>.
+    </p>
+  </div>
+</body>
+</html>
