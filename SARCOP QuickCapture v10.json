@@ -10,33 +10,33 @@
   },
   "dataSources": [
     {
-      "featureServiceItemId": "6d571bbe134346658e5f282e84541a2e",
-      "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
-      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/SARCOP_Incident_Feature_Service_v10_Mobile_Edit_View/FeatureServer/1",
+      "featureServiceItemId": "507cad4d7d31408a996c0e63e048818b",
+      "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
+      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/3eb7fa_SIFS_v10_Mobile_Edit_View/FeatureServer/0",
       "oicItemId": null,
       "oiflItemId": null,
       "usage": "capture"
     },
     {
-      "featureServiceItemId": "6d571bbe134346658e5f282e84541a2e",
-      "dataSourceId": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6",
-      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/SARCOP_Incident_Feature_Service_v10_Mobile_Edit_View/FeatureServer/2",
+      "featureServiceItemId": "507cad4d7d31408a996c0e63e048818b",
+      "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
+      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/3eb7fa_SIFS_v10_Mobile_Edit_View/FeatureServer/1",
       "oicItemId": null,
       "oiflItemId": null,
       "usage": "capture"
     },
     {
-      "featureServiceItemId": "6d571bbe134346658e5f282e84541a2e",
-      "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
-      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/SARCOP_Incident_Feature_Service_v10_Mobile_Edit_View/FeatureServer/0",
+      "featureServiceItemId": "507cad4d7d31408a996c0e63e048818b",
+      "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
+      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/3eb7fa_SIFS_v10_Mobile_Edit_View/FeatureServer/2",
       "oicItemId": null,
       "oiflItemId": null,
       "usage": "capture"
     },
     {
-      "featureServiceItemId": "6d571bbe134346658e5f282e84541a2e",
-      "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
-      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/SARCOP_Incident_Feature_Service_v10_Mobile_Edit_View/FeatureServer/8",
+      "featureServiceItemId": "507cad4d7d31408a996c0e63e048818b",
+      "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
+      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/3eb7fa_SIFS_v10_Mobile_Edit_View/FeatureServer/3",
       "oicItemId": null,
       "oiflItemId": null,
       "usage": "capture"
@@ -272,7 +272,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": "Tracklog",
-            "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+            "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
             "inputMode": "locationSensor",
             "type": "esriGeometryPolyline",
             "usePhotoXY": false,
@@ -370,10 +370,6 @@
               "value": "${positionSourceType}"
             },
             {
-              "fieldName": "Shape__Length",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
@@ -399,7 +395,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": "Tracklog",
-            "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+            "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
             "inputMode": "locationSensor",
             "type": "esriGeometryPolyline",
             "usePhotoXY": false,
@@ -497,10 +493,6 @@
               "value": "${positionSourceType}"
             },
             {
-              "fieldName": "Shape__Length",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
@@ -526,7 +518,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": "Tracklog",
-            "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+            "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
             "inputMode": "locationSensor",
             "type": "esriGeometryPolyline",
             "usePhotoXY": false,
@@ -624,10 +616,6 @@
               "value": "${positionSourceType}"
             },
             {
-              "fieldName": "Shape__Length",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
@@ -653,7 +641,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": "Tracklog",
-            "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+            "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
             "inputMode": "locationSensor",
             "type": "esriGeometryPolyline",
             "usePhotoXY": false,
@@ -751,10 +739,6 @@
               "value": "${positionSourceType}"
             },
             {
-              "fieldName": "Shape__Length",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
@@ -780,7 +764,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": "Tracklog",
-            "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+            "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
             "inputMode": "locationSensor",
             "type": "esriGeometryPolyline",
             "usePhotoXY": false,
@@ -801,7 +785,7 @@
             "outlineColor": "#333333",
             "outlineWidth": 2,
             "shadowColor": null,
-            "image": "Other Tracklogs.png",
+            "image": "Other Tracklogs v2.png",
             "mapSymbol": "default"
           },
           "fieldInfos": [
@@ -878,10 +862,6 @@
               "value": "${positionSourceType}"
             },
             {
-              "fieldName": "Shape__Length",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
@@ -924,7 +904,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -951,7 +931,7 @@
           "fieldInfos": [
             {
               "fieldName": "event_name",
-              "value": "${arcadeExpression:001}"
+              "value": "${arcadeExpression:003}"
             },
             {
               "fieldName": "team_name",
@@ -1201,7 +1181,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -1478,7 +1458,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -1755,7 +1735,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -2032,7 +2012,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -2309,7 +2289,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -2586,7 +2566,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -2863,7 +2843,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -3140,7 +3120,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -3417,7 +3397,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -3709,7 +3689,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -3986,7 +3966,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -4263,7 +4243,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -4540,7 +4520,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -4817,7 +4797,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -5109,7 +5089,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -5386,7 +5366,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -5663,7 +5643,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -5940,7 +5920,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -6217,7 +6197,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -6509,7 +6489,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -6786,7 +6766,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -7063,7 +7043,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -7340,7 +7320,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -7617,7 +7597,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -7894,7 +7874,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -8186,7 +8166,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -8463,7 +8443,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -8740,7 +8720,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -9017,7 +8997,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -9088,11 +9068,11 @@
             },
             {
               "fieldName": "waypoint",
-              "value": "extra21"
+              "value": "extra22"
             },
             {
               "fieldName": "original_waypoint",
-              "value": "extra21"
+              "value": "extra22"
             },
             {
               "fieldName": "waypoint_cat_cal",
@@ -9294,7 +9274,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -9365,11 +9345,11 @@
             },
             {
               "fieldName": "waypoint",
-              "value": "extra21"
+              "value": "extra23"
             },
             {
               "fieldName": "original_waypoint",
-              "value": "extra21"
+              "value": "extra23"
             },
             {
               "fieldName": "waypoint_cat_cal",
@@ -9571,7 +9551,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -9642,11 +9622,11 @@
             },
             {
               "fieldName": "waypoint",
-              "value": "extra21"
+              "value": "extra24"
             },
             {
               "fieldName": "original_waypoint",
-              "value": "extra21"
+              "value": "extra24"
             },
             {
               "fieldName": "waypoint_cat_cal",
@@ -9848,7 +9828,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -9946,7 +9926,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -9969,7 +9949,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -10067,7 +10047,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -10090,7 +10070,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -10188,7 +10168,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -10211,7 +10191,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -10309,7 +10289,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -10332,7 +10312,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -10430,7 +10410,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -10453,7 +10433,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -10551,7 +10531,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -10574,7 +10554,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -10672,7 +10652,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -10695,7 +10675,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -10793,7 +10773,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -10816,7 +10796,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -10914,7 +10894,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -10937,7 +10917,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -11035,7 +11015,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -11058,7 +11038,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -11156,7 +11136,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -11179,7 +11159,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -11277,7 +11257,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -11300,7 +11280,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -11398,7 +11378,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -11421,7 +11401,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -11519,7 +11499,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -11542,7 +11522,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -11640,7 +11620,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -11663,7 +11643,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -11761,7 +11741,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -11784,7 +11764,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -11882,7 +11862,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -11905,7 +11885,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -12003,7 +11983,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -12026,7 +12006,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -12124,7 +12104,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -12147,7 +12127,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -12245,7 +12225,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -12268,7 +12248,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+            "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -12366,7 +12346,7 @@
               "value": "${MGRS}"
             },
             {
-              "fieldName": "Elevation_Feet",
+              "fieldName": "elevation_feet",
               "value": null
             }
           ],
@@ -12404,7 +12384,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6",
+            "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -12725,7 +12705,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6",
+            "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -13046,7 +13026,7 @@
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6",
+            "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
             "inputMode": "locationSensor",
             "type": "esriGeometryPoint",
             "usePhotoXY": false,
@@ -13448,7 +13428,7 @@
           "updateMode": null
         },
         "type": "codedValue",
-        "name": "5a63f1ca-972d-4ad3-baf8-27568533c848_team_name",
+        "name": "9fc9ab82-9686-4c9d-b577-dd0e391dc002_team_name",
         "inputMask": null,
         "multiline": false,
         "hint": "Team Name (Search for it!)",
@@ -14109,85 +14089,85 @@
     {
       "id": "001",
       "label": "Incident Name",
-      "expression": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [  \"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
-      "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
-      "expression_display": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [\"event_name\"]);\r\nvar incidentname = First(Intersects($feature, incidentarea));\r\nif (!IsEmpty(incidentname)) {\r\n  return incidentname[\"event_name\"];\r\n} else {\r\n  return null;\r\n}\r\n "
+      "expression": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
+      "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
+      "expression_display": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\n  \"event_name\"\n]);\nvar incidentname = First(Intersects($feature, incidentarea));\nif (!IsEmpty(incidentname)) {\n  return incidentname[\"event_name\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "002",
       "label": "Division",
-      "expression": "var division = FeatureSetByName($map, \"SARCOP Divisions\", [\"division\"]);var divisionname = First(Intersects($feature, division));if (!IsEmpty(divisionname)) {  return divisionname[\"division\"];} else {  return null;}",
-      "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
-      "expression_display": "var division = FeatureSetByName($map, \"SARCOP Divisions\", [\"division\"]);\r\nvar divisionname = First(Intersects($feature, division));\r\nif (!IsEmpty(divisionname)) {\r\n  return divisionname[\"division\"];\r\n} else {\r\n  return null;\r\n}\r\n "
+      "expression": "var division = FeatureSetByName($map, \"Divisions\", [\"division\"]);var divisionname = First(Intersects($feature, division));if (!IsEmpty(divisionname)) {  return divisionname[\"division\"];} else {  return null;}",
+      "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
+      "expression_display": "var division = FeatureSetByName($map, \"Divisions\", [\"division\"]);\nvar divisionname = First(Intersects($feature, division));\nif (!IsEmpty(divisionname)) {\n  return divisionname[\"division\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "003",
       "label": "Branch",
-      "expression": "var branch = FeatureSetByName($map, \"SARCOP Branches\", [\"branch\"]);var branchname = First(Intersects($feature, branch));if (!IsEmpty(branchname)) {  return branchname[\"branch\"];} else {  return null;}",
-      "dataSourceId": "5a63f1ca-972d-4ad3-baf8-27568533c848",
-      "expression_display": "var branch = FeatureSetByName($map, \"SARCOP Branches\", [\"branch\"]);\r\nvar branchname = First(Intersects($feature, branch));\r\nif (!IsEmpty(branchname)) {\r\n  return branchname[\"branch\"];\r\n} else {\r\n  return null;\r\n}"
+      "expression": "var branch = FeatureSetByName($map, \"Branches\", [\"branch\"]);var branchname = First(Intersects($feature, branch));if (!IsEmpty(branchname)) {  return branchname[\"branch\"];} else {  return null;}",
+      "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
+      "expression_display": "var branch = FeatureSetByName($map, \"Branches\", [\"branch\"]);\nvar branchname = First(Intersects($feature, branch));\nif (!IsEmpty(branchname)) {\n  return branchname[\"branch\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "004",
       "label": "Incident Area",
       "expression": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [  \"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
-      "dataSourceId": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6",
+      "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
       "expression_display": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [\"event_name\"]); \r\nvar incidentname = First(Intersects($feature, incidentarea)); \r\nif (!IsEmpty(incidentname)) { return incidentname[\"event_name\"]; } else { return null; }"
     },
     {
       "id": "005",
       "label": "Division",
       "expression": "var division = FeatureSetByName($map, \"SARCOP Divisions\", [\"division\"]);var divisionname = First(Intersects($feature, division));if (!IsEmpty(divisionname)) {  return divisionname[\"division\"];} else {  return null;}",
-      "dataSourceId": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6",
+      "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
       "expression_display": "var division = FeatureSetByName($map, \"SARCOP Divisions\", [\"division\"]); \r\nvar divisionname = First(Intersects($feature, division)); \r\nif (!IsEmpty(divisionname)) { return divisionname[\"division\"]; } else { return null; }"
     },
     {
       "id": "006",
       "label": "Branch",
       "expression": "var branch = FeatureSetByName($map, \"SARCOP Branches\", [\"branch\"]);var branchname = First(Intersects($feature, branch));if (!IsEmpty(branchname)) {  return branchname[\"branch\"];} else {  return null;}",
-      "dataSourceId": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6",
+      "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
       "expression_display": "var branch = FeatureSetByName($map, \"SARCOP Branches\", [\"branch\"]); \r\nvar branchname = First(Intersects($feature, branch)); \r\nif (!IsEmpty(branchname)) { return branchname[\"branch\"]; } else { return null; }"
     },
     {
       "id": "007",
       "label": "Inicident Area",
       "expression": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [  \"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
-      "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+      "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
       "expression_display": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [\"event_name\"]); \r\nvar incidentname = First(Intersects($feature, incidentarea)); \r\nif (!IsEmpty(incidentname)) { return incidentname[\"event_name\"]; } else { return null; }"
     },
     {
       "id": "008",
       "label": "Incident Area",
       "expression": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [  \"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
-      "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+      "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
       "expression_display": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [\"event_name\"]); \r\nvar incidentname = First(Intersects($feature, incidentarea)); \r\nif (!IsEmpty(incidentname)) { return incidentname[\"event_name\"]; } else { return null; }"
     },
     {
       "id": "009",
       "label": "Division",
       "expression": "var division = FeatureSetByName($map, \"SARCOP Divisions\", [\"division\"]);var divisionname = First(Intersects($feature, division));if (!IsEmpty(divisionname)) {  return divisionname[\"division\"];} else {  return null;}",
-      "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+      "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
       "expression_display": "var division = FeatureSetByName($map, \"SARCOP Divisions\", [\"division\"]); \r\nvar divisionname = First(Intersects($feature, division)); \r\nif (!IsEmpty(divisionname)) { return divisionname[\"division\"]; } else { return null; }"
     },
     {
       "id": "0010",
       "label": "Branch",
       "expression": "var branch = FeatureSetByName($map, \"SARCOP Branches\", [\"branch\"]);var branchname = First(Intersects($feature, branch));if (!IsEmpty(branchname)) {  return branchname[\"branch\"];} else {  return null;}",
-      "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+      "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
       "expression_display": "var branch = FeatureSetByName($map, \"SARCOP Branches\", [\"branch\"]); \r\nvar branchname = First(Intersects($feature, branch)); \r\nif (!IsEmpty(branchname)) { return branchname[\"branch\"]; } else { return null; }"
     },
     {
       "id": "0011",
       "label": "Incident Name",
       "expression": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [  \"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
-      "dataSourceId": "bae19c28-6ddb-434d-8cbf-bdb63d888265",
+      "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
       "expression_display": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [\"event_name\"]); \r\nvar incidentname = First(Intersects($feature, incidentarea)); \r\nif (!IsEmpty(incidentname)) { return incidentname[\"event_name\"]; } else { return null; }"
     },
     {
       "id": "0012",
       "label": "Miles",
       "expression": "var distance = LengthGeodetic($feature, \"miles\");return Round(distance, 2);",
-      "dataSourceId": "e7986006-0eaa-46ff-9b9e-5533b8b6007f",
+      "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
       "expression_display": "var distance = LengthGeodetic($feature, \"miles\");\nreturn Round(distance, 2);\n"
     }
   ],
