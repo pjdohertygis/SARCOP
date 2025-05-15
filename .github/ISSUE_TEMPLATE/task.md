@@ -1,5 +1,5 @@
 ---
-name: Task Template
+name: Task
 about: 'Use this template for creating and assigning simple tasks that are not Enhancements
   or Bugs, just something that needs to be done. '
 title: 'TASK - '
