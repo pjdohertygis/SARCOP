@@ -1,48 +1,48 @@
 {
   "basemap": {
     "type": "WebMap",
-    "itemId": "2a4e8d8771fd4fa8a9919e4a262b63d0",
+    "itemId": "e2c7750cbb5d494382997fa5850c49b2",
     "mapAreas": [],
     "required": true,
     "useDefaultBasemap": false,
     "zoomLevel": null,
-    "url": "https://sargeo.maps.arcgis.com/home/item.html?id=2a4e8d8771fd4fa8a9919e4a262b63d0"
+    "url": "https://napsg.maps.arcgis.com/home/item.html?id=e2c7750cbb5d494382997fa5850c49b2"
   },
   "dataSources": [
     {
-      "featureServiceItemId": "507cad4d7d31408a996c0e63e048818b",
+      "featureServiceItemId": "48e96d1c8f9f4c39b32e11f5230d8f9d",
       "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
-      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/3eb7fa_SIFS_v10_Mobile_Edit_View/FeatureServer/0",
+      "url": "https://services.arcgis.com/0ZRg6WRC7mxSLyKX/arcgis/rest/services/Sandbox_v10_Mobile_Edit_View/FeatureServer/0",
       "oicItemId": null,
       "oiflItemId": null,
       "usage": "capture"
     },
     {
-      "featureServiceItemId": "507cad4d7d31408a996c0e63e048818b",
+      "featureServiceItemId": "48e96d1c8f9f4c39b32e11f5230d8f9d",
       "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
-      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/3eb7fa_SIFS_v10_Mobile_Edit_View/FeatureServer/1",
+      "url": "https://services.arcgis.com/0ZRg6WRC7mxSLyKX/arcgis/rest/services/Sandbox_v10_Mobile_Edit_View/FeatureServer/1",
       "oicItemId": null,
       "oiflItemId": null,
       "usage": "capture"
     },
     {
-      "featureServiceItemId": "507cad4d7d31408a996c0e63e048818b",
+      "featureServiceItemId": "48e96d1c8f9f4c39b32e11f5230d8f9d",
       "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
-      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/3eb7fa_SIFS_v10_Mobile_Edit_View/FeatureServer/2",
+      "url": "https://services.arcgis.com/0ZRg6WRC7mxSLyKX/arcgis/rest/services/Sandbox_v10_Mobile_Edit_View/FeatureServer/2",
       "oicItemId": null,
       "oiflItemId": null,
       "usage": "capture"
     },
     {
-      "featureServiceItemId": "507cad4d7d31408a996c0e63e048818b",
+      "featureServiceItemId": "48e96d1c8f9f4c39b32e11f5230d8f9d",
       "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
-      "url": "https://services6.arcgis.com/08xa7S9LzbwUB1T5/arcgis/rest/services/3eb7fa_SIFS_v10_Mobile_Edit_View/FeatureServer/3",
+      "url": "https://services.arcgis.com/0ZRg6WRC7mxSLyKX/arcgis/rest/services/Sandbox_v10_Mobile_Edit_View/FeatureServer/3",
       "oicItemId": null,
       "oiflItemId": null,
       "usage": "capture"
     }
   ],
-  "itemId": "7b0e2ac49bc54ebca70002acca0d675d",
+  "itemId": "77ccae87a39e432887e82fad70b82746",
   "minVersion": "1.18.0",
   "notificationsInfo": {
     "webhooks": []
@@ -50,6 +50,7 @@
   "preferences": {
     "allowEditLocation": true,
     "splitScreen": true,
+    "mapLayout": "right",
     "backgroundColor": "#c0c2c4",
     "distanceThreshold": 10,
     "excludeNetworkLocations": true,
@@ -61,7 +62,7 @@
     "allowExpiredLocations": false,
     "excludeLocationsWhenStationary": {
       "enabled": true,
-      "timeThreshold": 60,
+      "timeThreshold": 120,
       "accelerometerThreshold": null
     }
   },
@@ -81,7 +82,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -123,7 +124,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -165,7 +166,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -207,7 +208,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -245,9 +246,93 @@
           "urlInfo": {
             "url": "https://napsg.maps.arcgis.com/sharing/rest/content/items/d60c7a782c114ad196ef3fd8df1a6de7/data"
           }
+        },
+        {
+          "cameraInfo": {
+            "mode": "none",
+            "imageSize": "large",
+            "required": false,
+            "captureVideo": false,
+            "capturePhoto": true
+          },
+          "captureInfo": {
+            "continuous": false,
+            "exclusivityGroup": null,
+            "dataSourceId": null,
+            "inputMode": "locationSensor",
+            "type": null,
+            "usePhotoXY": false,
+            "editMap": {
+              "showAfterCapture": false,
+              "title": null,
+              "hint": null
+            }
+          },
+          "displayInfo": {
+            "label": "RST Occupancy",
+            "shape": "rounded",
+            "size": "small",
+            "color": "#dfdfdf",
+            "labelColor": "#333333",
+            "labelFontSize": 14,
+            "labelFontWeight": "Bold",
+            "outlineColor": "#333333",
+            "outlineWidth": 2,
+            "shadowColor": null,
+            "image": "office-building.png",
+            "mapSymbol": "default"
+          },
+          "fieldInfos": [],
+          "id": "d68890e4-5cef-41f5-ba4d-992bc4c88184",
+          "type": "link",
+          "urlInfo": {
+            "url": "https://napsg.maps.arcgis.com/sharing/rest/content/items/77f0c7131e9a434884c9d2191f19c0f7/data"
+          }
+        },
+        {
+          "cameraInfo": {
+            "mode": "none",
+            "imageSize": "large",
+            "required": false,
+            "captureVideo": false,
+            "capturePhoto": true
+          },
+          "captureInfo": {
+            "continuous": false,
+            "exclusivityGroup": null,
+            "dataSourceId": null,
+            "inputMode": "locationSensor",
+            "type": null,
+            "usePhotoXY": false,
+            "editMap": {
+              "showAfterCapture": false,
+              "title": null,
+              "hint": null
+            }
+          },
+          "displayInfo": {
+            "label": "Data Dictionary",
+            "shape": "rounded",
+            "size": "small",
+            "color": "#dfdfdf",
+            "labelColor": "#333333",
+            "labelFontSize": 14,
+            "labelFontWeight": "Bold",
+            "outlineColor": "#333333",
+            "outlineWidth": 2,
+            "shadowColor": null,
+            "image": "library.png",
+            "mapSymbol": "default"
+          },
+          "fieldInfos": [],
+          "id": "49cc47ac-eb2e-44d9-b811-1f58c458fab3",
+          "type": "link",
+          "urlInfo": {
+            "url": "https://arcgis.com/sharing/rest/content/items/71125cc83e3a4dc9be7e141ce436bd65/data"
+          }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     },
     {
       "backgroundColor": null,
@@ -264,7 +349,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -376,6 +461,10 @@
             {
               "fieldName": "tracklog_miles",
               "value": "${arcadeExpression:0012}"
+            },
+            {
+              "fieldName": "Shape__Length",
+              "value": null
             }
           ],
           "id": "946af256-42f8-4fb6-8a1c-a7b08c0e4864",
@@ -387,7 +476,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -499,6 +588,10 @@
             {
               "fieldName": "tracklog_miles",
               "value": "${arcadeExpression:0012}"
+            },
+            {
+              "fieldName": "Shape__Length",
+              "value": null
             }
           ],
           "id": "9f754a8c-24e4-4beb-80f5-7f307c94f91b",
@@ -510,7 +603,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -622,6 +715,10 @@
             {
               "fieldName": "tracklog_miles",
               "value": "${arcadeExpression:0012}"
+            },
+            {
+              "fieldName": "Shape__Length",
+              "value": null
             }
           ],
           "id": "e690628e-c1c1-4d94-903b-d3414d68d2c9",
@@ -633,7 +730,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -745,6 +842,10 @@
             {
               "fieldName": "tracklog_miles",
               "value": "${arcadeExpression:0012}"
+            },
+            {
+              "fieldName": "Shape__Length",
+              "value": null
             }
           ],
           "id": "fae1b6e6-8e8f-4c66-837d-e3ea3bb7a50b",
@@ -756,7 +857,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -868,6 +969,10 @@
             {
               "fieldName": "tracklog_miles",
               "value": "${arcadeExpression:0012}"
+            },
+            {
+              "fieldName": "Shape__Length",
+              "value": null
             }
           ],
           "id": "d0508918-dcb9-4e4a-9f21-ec737be5e0a5",
@@ -877,7 +982,7 @@
           }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     },
     {
       "backgroundColor": null,
@@ -894,7 +999,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -931,7 +1036,7 @@
           "fieldInfos": [
             {
               "fieldName": "event_name",
-              "value": "${arcadeExpression:003}"
+              "value": "${arcadeExpression:001}"
             },
             {
               "fieldName": "team_name",
@@ -1126,39 +1231,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -1171,7 +1256,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -1403,39 +1488,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": "${arcadeExpression:0013}"
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -1448,7 +1513,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -1680,39 +1745,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": "${arcadeExpression:0013}"
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -1725,7 +1770,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -1957,39 +2002,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -2002,7 +2027,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -2234,39 +2259,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -2279,7 +2284,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -2511,39 +2516,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": "${arcadeExpression:0013}"
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -2556,7 +2541,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -2788,39 +2773,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -2833,7 +2798,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -2886,7 +2851,7 @@
             },
             {
               "fieldName": "mission_type_waypoint",
-              "value": null
+              "value": "${userInput:005}"
             },
             {
               "fieldName": "MGRS",
@@ -2922,7 +2887,7 @@
             },
             {
               "fieldName": "waypoint_cat_cal",
-              "value": null
+              "value": "support"
             },
             {
               "fieldName": "general_comments",
@@ -3065,39 +3030,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -3110,7 +3055,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -3163,7 +3108,7 @@
             },
             {
               "fieldName": "mission_type_waypoint",
-              "value": null
+              "value": "${userInput:005}"
             },
             {
               "fieldName": "MGRS",
@@ -3199,7 +3144,7 @@
             },
             {
               "fieldName": "waypoint_cat_cal",
-              "value": null
+              "value": "support"
             },
             {
               "fieldName": "general_comments",
@@ -3342,39 +3287,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -3387,7 +3312,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -3440,7 +3365,7 @@
             },
             {
               "fieldName": "mission_type_waypoint",
-              "value": null
+              "value": "${userInput:005}"
             },
             {
               "fieldName": "MGRS",
@@ -3476,7 +3401,7 @@
             },
             {
               "fieldName": "waypoint_cat_cal",
-              "value": null
+              "value": "support"
             },
             {
               "fieldName": "general_comments",
@@ -3619,39 +3544,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -3662,7 +3567,7 @@
           }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     },
     {
       "backgroundColor": null,
@@ -3679,7 +3584,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -3911,39 +3816,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": "${arcadeExpression:0013}"
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -3956,7 +3841,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -4188,39 +4073,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": "${arcadeExpression:0013}"
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -4233,7 +4098,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -4465,39 +4330,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": "${arcadeExpression:0013}"
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -4510,7 +4355,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -4742,39 +4587,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": "${arcadeExpression:0013}"
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -4787,7 +4612,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -4928,7 +4753,7 @@
             },
             {
               "fieldName": "search_type_needed",
-              "value": null
+              "value": "${userInput:0021}"
             },
             {
               "fieldName": "followup_status",
@@ -4940,7 +4765,7 @@
             },
             {
               "fieldName": "followup_priority",
-              "value": null
+              "value": "${userInput:0022}"
             },
             {
               "fieldName": "start_time",
@@ -5019,39 +4844,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -5060,9 +4865,266 @@
           "urlInfo": {
             "url": null
           }
+        },
+        {
+          "cameraInfo": {
+            "mode": "manual",
+            "imageSize": "large",
+            "required": false,
+            "captureVideo": false,
+            "capturePhoto": true,
+            "maxMedia": 1,
+            "minMedia": 0
+          },
+          "captureInfo": {
+            "continuous": false,
+            "exclusivityGroup": null,
+            "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
+            "inputMode": "locationSensor",
+            "type": "esriGeometryPoint",
+            "usePhotoXY": false,
+            "editMap": {
+              "showAfterCapture": true,
+              "title": null,
+              "hint": null
+            }
+          },
+          "displayInfo": {
+            "label": "Missing Person IPP",
+            "shape": "rounded",
+            "size": "small",
+            "color": "#ee7158",
+            "labelColor": "#333333",
+            "labelFontSize": 14,
+            "labelFontWeight": "Bold",
+            "outlineColor": "#333333",
+            "outlineWidth": 2,
+            "shadowColor": null,
+            "image": "MissingPersonIPP.svg",
+            "mapSymbol": "default"
+          },
+          "fieldInfos": [
+            {
+              "fieldName": "event_name",
+              "value": "${arcadeExpression:001}"
+            },
+            {
+              "fieldName": "team_name",
+              "value": "${userInput:001}"
+            },
+            {
+              "fieldName": "squad_id",
+              "value": "${userInput:002}"
+            },
+            {
+              "fieldName": "operator_name",
+              "value": "${userInput:003}"
+            },
+            {
+              "fieldName": "mission_type_waypoint",
+              "value": null
+            },
+            {
+              "fieldName": "MGRS",
+              "value": "${MGRS}"
+            },
+            {
+              "fieldName": "DDM",
+              "value": "${DDM}"
+            },
+            {
+              "fieldName": "latitude",
+              "value": "${latitude}"
+            },
+            {
+              "fieldName": "longitude",
+              "value": "${longitude}"
+            },
+            {
+              "fieldName": "altitude",
+              "value": "${altitude}"
+            },
+            {
+              "fieldName": "horizontalAccuracy",
+              "value": "${horizontalAccuracy}"
+            },
+            {
+              "fieldName": "waypoint",
+              "value": "mp_ipp"
+            },
+            {
+              "fieldName": "original_waypoint",
+              "value": "mp_ipp"
+            },
+            {
+              "fieldName": "waypoint_cat_cal",
+              "value": "human_interaction"
+            },
+            {
+              "fieldName": "general_comments",
+              "value": "${userInput:008}"
+            },
+            {
+              "fieldName": "address",
+              "value": null
+            },
+            {
+              "fieldName": "city",
+              "value": null
+            },
+            {
+              "fieldName": "state_territory",
+              "value": null
+            },
+            {
+              "fieldName": "zip",
+              "value": null
+            },
+            {
+              "fieldName": "county",
+              "value": null
+            },
+            {
+              "fieldName": "structure_type",
+              "value": null
+            },
+            {
+              "fieldName": "person_num",
+              "value": "${userInput:0014}"
+            },
+            {
+              "fieldName": "hr_completeness",
+              "value": null
+            },
+            {
+              "fieldName": "pet_num",
+              "value": null
+            },
+            {
+              "fieldName": "water_depth",
+              "value": null
+            },
+            {
+              "fieldName": "haz_other",
+              "value": null
+            },
+            {
+              "fieldName": "search_type_needed",
+              "value": null
+            },
+            {
+              "fieldName": "followup_status",
+              "value": "needs_followup"
+            },
+            {
+              "fieldName": "assigned_to",
+              "value": null
+            },
+            {
+              "fieldName": "followup_priority",
+              "value": "${userInput:0022}"
+            },
+            {
+              "fieldName": "start_time",
+              "value": "${captureTime}"
+            },
+            {
+              "fieldName": "feature_status",
+              "value": null
+            },
+            {
+              "fieldName": "delete_this",
+              "value": "no"
+            },
+            {
+              "fieldName": "data_source",
+              "value": "quickcapture"
+            },
+            {
+              "fieldName": "edit_comments",
+              "value": null
+            },
+            {
+              "fieldName": "installUUID",
+              "value": "${installUUID}"
+            },
+            {
+              "fieldName": "appVersion",
+              "value": "${appVersion}"
+            },
+            {
+              "fieldName": "project_name",
+              "value": "${projectName}"
+            },
+            {
+              "fieldName": "device_OS",
+              "value": "${operatingSystem}"
+            },
+            {
+              "fieldName": "email",
+              "value": "${email}"
+            },
+            {
+              "fieldName": "fixType",
+              "value": "${fixType}"
+            },
+            {
+              "fieldName": "level_id",
+              "value": null
+            },
+            {
+              "fieldName": "wildcard1",
+              "value": null
+            },
+            {
+              "fieldName": "wildcard2",
+              "value": null
+            },
+            {
+              "fieldName": "wildcard3",
+              "value": null
+            },
+            {
+              "fieldName": "wildcard4",
+              "value": null
+            },
+            {
+              "fieldName": "wildcard5",
+              "value": null
+            },
+            {
+              "fieldName": "division",
+              "value": "${arcadeExpression:002}"
+            },
+            {
+              "fieldName": "branch",
+              "value": "${arcadeExpression:003}"
+            },
+            {
+              "fieldName": "device_model",
+              "value": "${deviceModel}"
+            },
+            {
+              "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": "${arcadeExpression:0013}"
+            },
+            {
+              "fieldName": "change_worksite",
+              "value": null
+            }
+          ],
+          "id": "0b457a33-27ff-4ee4-8e3b-a3d838f458f3",
+          "type": "button",
+          "urlInfo": {
+            "url": null
+          }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     },
     {
       "backgroundColor": null,
@@ -5079,7 +5141,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -5311,39 +5373,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -5356,7 +5398,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -5588,39 +5630,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -5633,7 +5655,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -5865,39 +5887,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -5910,7 +5912,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -6142,39 +6144,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -6187,7 +6169,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -6419,39 +6401,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -6462,7 +6424,7 @@
           }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     },
     {
       "backgroundColor": null,
@@ -6479,7 +6441,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -6711,39 +6673,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -6756,7 +6698,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -6988,39 +6930,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -7033,7 +6955,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -7265,39 +7187,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -7310,7 +7212,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -7542,39 +7444,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -7587,7 +7469,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -7819,39 +7701,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -7864,7 +7726,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -8096,39 +7958,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -8139,7 +7981,7 @@
           }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     },
     {
       "backgroundColor": null,
@@ -8156,7 +7998,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": true,
             "capturePhoto": true,
@@ -8388,39 +8230,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -8433,7 +8255,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -8665,39 +8487,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -8710,7 +8512,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -8942,39 +8744,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -8987,7 +8769,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -9219,39 +9001,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -9264,7 +9026,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -9496,39 +9258,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -9541,7 +9283,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -9773,39 +9515,19 @@
               "value": "${arcadeExpression:003}"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "device_model",
               "value": "${deviceModel}"
             },
             {
               "fieldName": "F11_Triage_Category",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_id",
+              "value": null
+            },
+            {
+              "fieldName": "change_worksite",
               "value": null
             }
           ],
@@ -9818,7 +9540,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -9939,7 +9661,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -10060,7 +9782,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -10181,7 +9903,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -10302,7 +10024,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -10423,7 +10145,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -10544,7 +10266,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -10665,7 +10387,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -10786,7 +10508,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -10907,7 +10629,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11028,7 +10750,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11149,7 +10871,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11270,7 +10992,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11391,7 +11113,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11512,7 +11234,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11633,7 +11355,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11754,7 +11476,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11875,7 +11597,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -11996,7 +11718,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -12117,7 +11839,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -12238,7 +11960,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -12357,7 +12079,7 @@
           }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     },
     {
       "backgroundColor": null,
@@ -12374,7 +12096,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -12511,7 +12233,7 @@
             },
             {
               "fieldName": "viable_victim",
-              "value": null
+              "value": "${userInput:004}"
             },
             {
               "fieldName": "further_collapse",
@@ -12527,7 +12249,7 @@
             },
             {
               "fieldName": "struct_rating",
-              "value": null
+              "value": "${userInput:0011}"
             },
             {
               "fieldName": "prev_search",
@@ -12555,39 +12277,39 @@
             },
             {
               "fieldName": "F15_TechnicalSearch",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_SwiftwaterSearch",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_CanineSearch",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_ShoringPropping",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_BreakingBreeching",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_LiftingMoving",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_Rope",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_MedicalNeeds",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_sUAS",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "followup_status",
@@ -12610,79 +12332,67 @@
               "value": "no"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "data_source",
               "value": "quickcapture"
             },
             {
               "fieldName": "cip_conc",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "cmu",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "pc_conc",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "pt_conc",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "steel",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "tilt_up",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "urm",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "wood",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "other_material",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F11_Triage_Category",
-              "value": "${userInput:009}"
+              "value": null
             },
             {
               "fieldName": "F15_HeavyEquipment",
+              "value": "No_Unknown"
+            },
+            {
+              "fieldName": "link_1",
+              "value": null
+            },
+            {
+              "fieldName": "link_2",
+              "value": null
+            },
+            {
+              "fieldName": "link_3",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_completion",
               "value": null
             }
           ],
@@ -12695,7 +12405,7 @@
         {
           "cameraInfo": {
             "mode": "manual",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true,
@@ -12832,7 +12542,7 @@
             },
             {
               "fieldName": "viable_victim",
-              "value": null
+              "value": "${userInput:004}"
             },
             {
               "fieldName": "further_collapse",
@@ -12848,7 +12558,7 @@
             },
             {
               "fieldName": "struct_rating",
-              "value": null
+              "value": "${userInput:0011}"
             },
             {
               "fieldName": "prev_search",
@@ -12876,39 +12586,39 @@
             },
             {
               "fieldName": "F15_TechnicalSearch",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_SwiftwaterSearch",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_CanineSearch",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_ShoringPropping",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_BreakingBreeching",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_LiftingMoving",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_Rope",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_MedicalNeeds",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F15_sUAS",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "followup_status",
@@ -12931,79 +12641,67 @@
               "value": "no"
             },
             {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
               "fieldName": "data_source",
               "value": "quickcapture"
             },
             {
               "fieldName": "cip_conc",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "cmu",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "pc_conc",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "pt_conc",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "steel",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "tilt_up",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "urm",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "wood",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "other_material",
-              "value": null
+              "value": "No_Unknown"
             },
             {
               "fieldName": "F11_Triage_Category",
-              "value": "${userInput:009}"
+              "value": null
             },
             {
               "fieldName": "F15_HeavyEquipment",
+              "value": "No_Unknown"
+            },
+            {
+              "fieldName": "link_1",
+              "value": null
+            },
+            {
+              "fieldName": "link_2",
+              "value": null
+            },
+            {
+              "fieldName": "link_3",
+              "value": null
+            },
+            {
+              "fieldName": "worksite_completion",
               "value": null
             }
           ],
@@ -13015,327 +12713,48 @@
         },
         {
           "cameraInfo": {
-            "mode": "manual",
-            "imageSize": "medium",
+            "mode": "none",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
-            "capturePhoto": true,
-            "maxMedia": 1,
-            "minMedia": 0
+            "capturePhoto": true
           },
           "captureInfo": {
             "continuous": false,
             "exclusivityGroup": null,
-            "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
+            "dataSourceId": null,
             "inputMode": "locationSensor",
-            "type": "esriGeometryPoint",
+            "type": null,
             "usePhotoXY": false,
             "editMap": {
-              "showAfterCapture": true,
+              "showAfterCapture": false,
               "title": null,
               "hint": null
             }
           },
           "displayInfo": {
-            "label": "Worksite Completed",
+            "label": "Complete in FM",
             "shape": "rounded",
             "size": "small",
-            "color": "#288835",
-            "labelColor": "#ffffff",
+            "color": "#2db341",
+            "labelColor": "#333333",
             "labelFontSize": 14,
             "labelFontWeight": "Bold",
-            "outlineColor": "#000000",
+            "outlineColor": "#ffffff",
             "outlineWidth": 2,
             "shadowColor": null,
             "image": "Worksite Completed v3.png",
             "mapSymbol": "default"
           },
-          "fieldInfos": [
-            {
-              "fieldName": "event_name",
-              "value": "${arcadeExpression:004}"
-            },
-            {
-              "fieldName": "division",
-              "value": "${arcadeExpression:005}"
-            },
-            {
-              "fieldName": "branch",
-              "value": "${arcadeExpression:006}"
-            },
-            {
-              "fieldName": "team_name",
-              "value": "${userInput:001}"
-            },
-            {
-              "fieldName": "squad_id",
-              "value": "${userInput:002}"
-            },
-            {
-              "fieldName": "operator_name",
-              "value": "${userInput:003}"
-            },
-            {
-              "fieldName": "worksite_id",
-              "value": "${MGRS}"
-            },
-            {
-              "fieldName": "worksite_label",
-              "value": "${userInput:006}"
-            },
-            {
-              "fieldName": "mission_type",
-              "value": "hasty"
-            },
-            {
-              "fieldName": "project_name",
-              "value": "${projectName}"
-            },
-            {
-              "fieldName": "MGRS",
-              "value": "${MGRS}"
-            },
-            {
-              "fieldName": "DDM",
-              "value": "${DDM}"
-            },
-            {
-              "fieldName": "latitude",
-              "value": "${latitude}"
-            },
-            {
-              "fieldName": "longitude",
-              "value": "${longitude}"
-            },
-            {
-              "fieldName": "horizontaccuracy",
-              "value": "${horizontalAccuracy}"
-            },
-            {
-              "fieldName": "number_stories",
-              "value": null
-            },
-            {
-              "fieldName": "floor_area",
-              "value": null
-            },
-            {
-              "fieldName": "address",
-              "value": null
-            },
-            {
-              "fieldName": "city",
-              "value": null
-            },
-            {
-              "fieldName": "state_territory",
-              "value": null
-            },
-            {
-              "fieldName": "zip",
-              "value": null
-            },
-            {
-              "fieldName": "occupancy",
-              "value": "${userInput:007}"
-            },
-            {
-              "fieldName": "potential_trapped",
-              "value": null
-            },
-            {
-              "fieldName": "victim_access",
-              "value": null
-            },
-            {
-              "fieldName": "type_void",
-              "value": null
-            },
-            {
-              "fieldName": "viable_victim",
-              "value": null
-            },
-            {
-              "fieldName": "further_collapse",
-              "value": null
-            },
-            {
-              "fieldName": "num_falling_hazards",
-              "value": null
-            },
-            {
-              "fieldName": "void_support",
-              "value": null
-            },
-            {
-              "fieldName": "struct_rating",
-              "value": null
-            },
-            {
-              "fieldName": "prev_search",
-              "value": null
-            },
-            {
-              "fieldName": "slow_go",
-              "value": null
-            },
-            {
-              "fieldName": "slow_go_other",
-              "value": null
-            },
-            {
-              "fieldName": "notes",
-              "value": null
-            },
-            {
-              "fieldName": "F5_Operation_less_12hours",
-              "value": null
-            },
-            {
-              "fieldName": "Information_Victim",
-              "value": null
-            },
-            {
-              "fieldName": "F15_TechnicalSearch",
-              "value": null
-            },
-            {
-              "fieldName": "F15_SwiftwaterSearch",
-              "value": null
-            },
-            {
-              "fieldName": "F15_CanineSearch",
-              "value": null
-            },
-            {
-              "fieldName": "F15_ShoringPropping",
-              "value": null
-            },
-            {
-              "fieldName": "F15_BreakingBreeching",
-              "value": null
-            },
-            {
-              "fieldName": "F15_LiftingMoving",
-              "value": null
-            },
-            {
-              "fieldName": "F15_Rope",
-              "value": null
-            },
-            {
-              "fieldName": "F15_MedicalNeeds",
-              "value": null
-            },
-            {
-              "fieldName": "F15_sUAS",
-              "value": null
-            },
-            {
-              "fieldName": "followup_status",
-              "value": "completed"
-            },
-            {
-              "fieldName": "followup_priority",
-              "value": null
-            },
-            {
-              "fieldName": "assigned_to",
-              "value": "${userInput:0010}"
-            },
-            {
-              "fieldName": "general_comments",
-              "value": "${userInput:008}"
-            },
-            {
-              "fieldName": "delete_this",
-              "value": "no"
-            },
-            {
-              "fieldName": "esritask_type",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_assignee",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_status",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_priority",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_duedate",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_description",
-              "value": null
-            },
-            {
-              "fieldName": "esritask_notes",
-              "value": null
-            },
-            {
-              "fieldName": "data_source",
-              "value": "quickcapture"
-            },
-            {
-              "fieldName": "cip_conc",
-              "value": null
-            },
-            {
-              "fieldName": "cmu",
-              "value": null
-            },
-            {
-              "fieldName": "pc_conc",
-              "value": null
-            },
-            {
-              "fieldName": "pt_conc",
-              "value": null
-            },
-            {
-              "fieldName": "steel",
-              "value": null
-            },
-            {
-              "fieldName": "tilt_up",
-              "value": null
-            },
-            {
-              "fieldName": "urm",
-              "value": null
-            },
-            {
-              "fieldName": "wood",
-              "value": null
-            },
-            {
-              "fieldName": "other_material",
-              "value": null
-            },
-            {
-              "fieldName": "F11_Triage_Category",
-              "value": "${userInput:009}"
-            },
-            {
-              "fieldName": "F15_HeavyEquipment",
-              "value": null
-            }
-          ],
-          "id": "38ba88c3-75ff-43bd-ac36-cc3badef60af",
-          "type": "button",
+          "fieldInfos": [],
+          "id": "af49316d-39bc-4569-8dfd-4448e3b0feb8",
+          "type": "link",
           "urlInfo": {
-            "url": null
+            "url": "https://fieldmaps.arcgis.app/?itemID=e2c7750cbb5d494382997fa5850c49b2&referenceContext=open"
           }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     },
     {
       "backgroundColor": null,
@@ -13352,7 +12771,7 @@
         {
           "cameraInfo": {
             "mode": "none",
-            "imageSize": "medium",
+            "imageSize": "large",
             "required": false,
             "captureVideo": false,
             "capturePhoto": true
@@ -13388,26 +12807,68 @@
           "id": "ed998791-ec7e-422b-93c9-9483e17feed4",
           "type": "link",
           "urlInfo": {
-            "url": "https://fieldmaps.arcgis.app/?itemID=2a4e8d8771fd4fa8a9919e4a262b63d0&referenceContext=open"
+            "url": "https://fieldmaps.arcgis.app/?itemID=e2c7750cbb5d494382997fa5850c49b2&referenceContext=open"
+          }
+        },
+        {
+          "cameraInfo": {
+            "mode": "none",
+            "imageSize": "large",
+            "required": false,
+            "captureVideo": false,
+            "capturePhoto": true
+          },
+          "captureInfo": {
+            "continuous": false,
+            "exclusivityGroup": null,
+            "dataSourceId": null,
+            "inputMode": "locationSensor",
+            "type": null,
+            "usePhotoXY": false,
+            "editMap": {
+              "showAfterCapture": false,
+              "title": null,
+              "hint": null
+            }
+          },
+          "displayInfo": {
+            "label": "Field Maps - Offline",
+            "shape": "rounded",
+            "size": "small",
+            "color": "#dfdfdf",
+            "labelColor": "#333333",
+            "labelFontSize": 14,
+            "labelFontWeight": "Bold",
+            "outlineColor": "#333333",
+            "outlineWidth": 2,
+            "shadowColor": null,
+            "image": "fieldmaps_offline.png",
+            "mapSymbol": "default"
+          },
+          "fieldInfos": [],
+          "id": "a05794c8-ceb6-406a-b6a4-f954bd37a022",
+          "type": "link",
+          "urlInfo": {
+            "url": "https://fieldmaps.arcgis.app/?itemID=3733eec3ade74368a3d5ba47617bc39f&referenceContext=open"
           }
         }
       ],
-      "outlineColor": "#00619b"
+      "outlineColor": "#c00000"
     }
   ],
   "tracking": {
-    "enabled": true,
+    "enabled": false,
     "required": false,
     "lastKnownLocationsUpdateInterval": 60,
     "tracksUploadInterval": -1,
     "tracksCategory": "${userInput:003}",
-    "lastKnownLocationsCategory": "${projectName}"
+    "lastKnownLocationsCategory": "${userInput:003}"
   },
   "userInputs": [
     {
       "autoCompleteMaxEntries": 5,
       "id": "001",
-      "label": "Team Name",
+      "label": "Team Name (Search for it!)",
       "fieldType": "esriFieldTypeString",
       "required": true,
       "showEvent": "onEnd",
@@ -13423,6 +12884,7 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
@@ -13431,7 +12893,7 @@
         "name": "9fc9ab82-9686-4c9d-b577-dd0e391dc002_team_name",
         "inputMask": null,
         "multiline": false,
-        "hint": "Team Name (Search for it!)",
+        "hint": "What is your team name? Start typing to search. If you do not see your Team in the list, select \"Other\".",
         "codedValues": [],
         "range": [],
         "showScanner": false
@@ -13457,13 +12919,14 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
         },
         "type": "userDefined",
         "name": null,
-        "inputMask": "D000",
+        "inputMask": "D0000",
         "multiline": false,
         "hint": "What is your squad designation? Number Only (e.g. If Squad 1, enter \"1\")",
         "codedValues": [],
@@ -13491,6 +12954,7 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
@@ -13508,8 +12972,8 @@
     },
     {
       "autoCompleteMaxEntries": 5,
-      "id": "009",
-      "label": "Triage Category",
+      "id": "0019",
+      "label": "Logistics Label",
       "fieldType": "esriFieldTypeString",
       "required": true,
       "showEvent": "onEnd",
@@ -13525,83 +12989,16 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
         },
-        "type": "codedValue",
-        "name": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6_F11_Triage_Category",
+        "type": "userDefined",
+        "name": null,
         "inputMask": null,
         "multiline": false,
-        "hint": null,
-        "codedValues": [],
-        "range": [],
-        "showScanner": false
-      },
-      "mode": "button"
-    },
-    {
-      "autoCompleteMaxEntries": 5,
-      "id": "004",
-      "label": "Mission / Search Type",
-      "fieldType": "esriFieldTypeString",
-      "required": true,
-      "showEvent": "onEnd",
-      "domain": {
-        "allowOther": false,
-        "dateTime": {
-          "defaultValue": null,
-          "displayTime": true,
-          "maxValue": null,
-          "minValue": null
-        },
-        "dynamicList": {
-          "dataSourceId": null,
-          "outFields": null,
-          "where": null,
-          "orderByFields": null,
-          "parameters": null,
-          "updateMode": null
-        },
-        "type": "codedValue",
-        "name": "5f8eb036-4cfc-4871-b434-1f39256ebf62_mission_type_waypoint",
-        "inputMask": null,
-        "multiline": false,
-        "hint": null,
-        "codedValues": [],
-        "range": [],
-        "showScanner": false
-      },
-      "mode": "button"
-    },
-    {
-      "autoCompleteMaxEntries": 5,
-      "id": "005",
-      "label": "Mission / Search Type",
-      "fieldType": "esriFieldTypeString",
-      "required": true,
-      "showEvent": "onEnd",
-      "domain": {
-        "allowOther": false,
-        "dateTime": {
-          "defaultValue": null,
-          "displayTime": true,
-          "maxValue": null,
-          "minValue": null
-        },
-        "dynamicList": {
-          "dataSourceId": null,
-          "outFields": null,
-          "where": null,
-          "orderByFields": null,
-          "parameters": null,
-          "updateMode": null
-        },
-        "type": "codedValue",
-        "name": "5a63f1ca-972d-4ad3-baf8-27568533c848_mission_type_waypoint",
-        "inputMask": null,
-        "multiline": false,
-        "hint": null,
+        "hint": "Logistics points are labeled on the map. If relevant, include your short team designation on the label (e.g., MO-TF1 BoO, SC-TF1 Starlink, CA-TF2 DP2, etc.).",
         "codedValues": [],
         "range": [],
         "showScanner": false
@@ -13627,6 +13024,7 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
@@ -13636,6 +13034,146 @@
         "inputMask": null,
         "multiline": false,
         "hint": "If appropriate, add a short label here to identify the worksite (different from Worksite ID)",
+        "codedValues": [],
+        "range": [],
+        "showScanner": false
+      },
+      "mode": "button"
+    },
+    {
+      "autoCompleteMaxEntries": 5,
+      "id": "0017",
+      "label": "Follow-Up Needed",
+      "fieldType": "esriFieldTypeString",
+      "required": true,
+      "showEvent": "onEnd",
+      "domain": {
+        "allowOther": false,
+        "dateTime": {
+          "defaultValue": null,
+          "displayTime": true,
+          "maxValue": null,
+          "minValue": null
+        },
+        "dynamicList": {
+          "dataSourceId": null,
+          "outFields": null,
+          "where": null,
+          "whereComponents": null,
+          "orderByFields": null,
+          "parameters": null,
+          "updateMode": null
+        },
+        "type": "codedValue",
+        "name": "9fc9ab82-9686-4c9d-b577-dd0e391dc002_followup_status",
+        "inputMask": null,
+        "multiline": false,
+        "hint": "Please indicate if this location needs follow-up by FIRST RESPONDERS (Needs Follow-up), is assigned already (Assigned), or if you are just making an observation (No Follow-up Needed). Use voice or other direct COMMUNICATION through chain of command to ensure required actions are received.",
+        "codedValues": [],
+        "range": [],
+        "showScanner": false
+      },
+      "mode": "button"
+    },
+    {
+      "autoCompleteMaxEntries": 5,
+      "id": "009",
+      "label": "Triage Category",
+      "fieldType": "esriFieldTypeString",
+      "required": true,
+      "showEvent": "onEnd",
+      "domain": {
+        "allowOther": false,
+        "dateTime": {
+          "defaultValue": null,
+          "displayTime": true,
+          "maxValue": null,
+          "minValue": null
+        },
+        "dynamicList": {
+          "dataSourceId": null,
+          "outFields": null,
+          "where": null,
+          "whereComponents": null,
+          "orderByFields": null,
+          "parameters": null,
+          "updateMode": null
+        },
+        "type": "codedValue",
+        "name": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb_F11_Triage_Category",
+        "inputMask": null,
+        "multiline": false,
+        "hint": null,
+        "codedValues": [],
+        "range": [],
+        "showScanner": false
+      },
+      "mode": "button"
+    },
+    {
+      "autoCompleteMaxEntries": 5,
+      "id": "005",
+      "label": "Mission / Search Type (Waypoints)",
+      "fieldType": "esriFieldTypeString",
+      "required": true,
+      "showEvent": "onEnd",
+      "domain": {
+        "allowOther": false,
+        "dateTime": {
+          "defaultValue": null,
+          "displayTime": true,
+          "maxValue": null,
+          "minValue": null
+        },
+        "dynamicList": {
+          "dataSourceId": null,
+          "outFields": null,
+          "where": null,
+          "whereComponents": null,
+          "orderByFields": null,
+          "parameters": null,
+          "updateMode": null
+        },
+        "type": "codedValue",
+        "name": "9fc9ab82-9686-4c9d-b577-dd0e391dc002_mission_type_waypoint",
+        "inputMask": null,
+        "multiline": false,
+        "hint": "This documents whether or not you searched this structure. You DO NOT need to add an additional searched waypoint here unless returning for a more detailed search later on. If you choose a search category, it will show up in the \"Waypoint Search Type\" layer. If just marking a damage observation without searching, choose Not Searched.",
+        "codedValues": [],
+        "range": [],
+        "showScanner": false
+      },
+      "mode": "button"
+    },
+    {
+      "autoCompleteMaxEntries": 5,
+      "id": "0013",
+      "label": "All Other Mission Types (Tracklogs)",
+      "fieldType": "esriFieldTypeString",
+      "required": true,
+      "showEvent": "onStart",
+      "domain": {
+        "allowOther": false,
+        "dateTime": {
+          "defaultValue": null,
+          "displayTime": true,
+          "maxValue": null,
+          "minValue": null
+        },
+        "dynamicList": {
+          "dataSourceId": null,
+          "outFields": null,
+          "where": null,
+          "whereComponents": null,
+          "orderByFields": null,
+          "parameters": null,
+          "updateMode": null
+        },
+        "type": "codedValue",
+        "name": "db35bd1c-5f92-4944-9893-1a3e60ba08bf_mission_type",
+        "inputMask": null,
+        "multiline": false,
+        "hint": "This documents whether or not you searched this structure. You DO NOT need to add an additional searched waypoint here unless returning for a more detailed search later on. If you choose a search category, it will show up in the \"Waypoint Search Type\" layer. If just marking a damage observation without searching, choose Not Searched.",
         "codedValues": [],
         "range": [],
         "showScanner": false
@@ -13661,12 +13199,13 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
         },
         "type": "codedValue",
-        "name": "2e9dcab0-5805-4954-9e60-61b4e3fad0e6_occupancy",
+        "name": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb_occupancy",
         "inputMask": null,
         "multiline": false,
         "hint": null,
@@ -13695,6 +13234,7 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
@@ -13704,40 +13244,6 @@
         "inputMask": null,
         "multiline": false,
         "hint": "Who has this been assigned to?",
-        "codedValues": [],
-        "range": [],
-        "showScanner": false
-      },
-      "mode": "button"
-    },
-    {
-      "autoCompleteMaxEntries": 5,
-      "id": "0011",
-      "label": "Logistics Category",
-      "fieldType": "esriFieldTypeString",
-      "required": true,
-      "showEvent": "onEnd",
-      "domain": {
-        "allowOther": false,
-        "dateTime": {
-          "defaultValue": null,
-          "displayTime": true,
-          "maxValue": null,
-          "minValue": null
-        },
-        "dynamicList": {
-          "dataSourceId": null,
-          "outFields": null,
-          "where": null,
-          "orderByFields": null,
-          "parameters": null,
-          "updateMode": null
-        },
-        "type": "userDefined",
-        "name": null,
-        "inputMask": null,
-        "multiline": false,
-        "hint": "Provide a short label that will appear on the map.",
         "codedValues": [],
         "range": [],
         "showScanner": false
@@ -13763,83 +13269,16 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
         },
         "type": "codedValue",
-        "name": "5a63f1ca-972d-4ad3-baf8-27568533c848_structure_type",
+        "name": "9fc9ab82-9686-4c9d-b577-dd0e391dc002_structure_type",
         "inputMask": null,
         "multiline": false,
         "hint": null,
-        "codedValues": [],
-        "range": [],
-        "showScanner": false
-      },
-      "mode": "button"
-    },
-    {
-      "autoCompleteMaxEntries": 5,
-      "id": "0013",
-      "label": "All Mission Types",
-      "fieldType": "esriFieldTypeString",
-      "required": true,
-      "showEvent": "onStart",
-      "domain": {
-        "allowOther": false,
-        "dateTime": {
-          "defaultValue": null,
-          "displayTime": true,
-          "maxValue": null,
-          "minValue": null
-        },
-        "dynamicList": {
-          "dataSourceId": null,
-          "outFields": null,
-          "where": null,
-          "orderByFields": null,
-          "parameters": null,
-          "updateMode": null
-        },
-        "type": "codedValue",
-        "name": "e7986006-0eaa-46ff-9b9e-5533b8b6007f_mission_type",
-        "inputMask": null,
-        "multiline": false,
-        "hint": null,
-        "codedValues": [],
-        "range": [],
-        "showScanner": false
-      },
-      "mode": "button"
-    },
-    {
-      "autoCompleteMaxEntries": 5,
-      "id": "0019",
-      "label": "Logistics Label",
-      "fieldType": "esriFieldTypeString",
-      "required": true,
-      "showEvent": "onEnd",
-      "domain": {
-        "allowOther": false,
-        "dateTime": {
-          "defaultValue": null,
-          "displayTime": true,
-          "maxValue": null,
-          "minValue": null
-        },
-        "dynamicList": {
-          "dataSourceId": null,
-          "outFields": null,
-          "where": null,
-          "orderByFields": null,
-          "parameters": null,
-          "updateMode": null
-        },
-        "type": "userDefined",
-        "name": null,
-        "inputMask": null,
-        "multiline": false,
-        "hint": "Logistics points are automatically labeled on the map. If relevant, include your short team designation on the label (e.g., MO-TF1 BoO, SC-TF1 Starlink, CA-TF2 DP2, etc.).",
         "codedValues": [],
         "range": [],
         "showScanner": false
@@ -13865,6 +13304,7 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
@@ -13899,12 +13339,13 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
         },
         "type": "codedValue",
-        "name": "5a63f1ca-972d-4ad3-baf8-27568533c848_hr_completeness",
+        "name": "9fc9ab82-9686-4c9d-b577-dd0e391dc002_hr_completeness",
         "inputMask": null,
         "multiline": false,
         "hint": null,
@@ -13920,7 +13361,7 @@
       "label": "Pet Count",
       "fieldType": "esriFieldTypeSmallInteger",
       "required": true,
-      "showEvent": "onStart",
+      "showEvent": "onEnd",
       "domain": {
         "allowOther": false,
         "dateTime": {
@@ -13933,6 +13374,7 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
@@ -13950,8 +13392,8 @@
     },
     {
       "autoCompleteMaxEntries": 5,
-      "id": "0017",
-      "label": "Follow-Up Needed",
+      "id": "0021",
+      "label": "Search Type Needed",
       "fieldType": "esriFieldTypeString",
       "required": true,
       "showEvent": "onEnd",
@@ -13967,15 +13409,16 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
         },
         "type": "codedValue",
-        "name": "5a63f1ca-972d-4ad3-baf8-27568533c848_followup_status",
+        "name": "9fc9ab82-9686-4c9d-b577-dd0e391dc002_search_type_needed",
         "inputMask": null,
         "multiline": false,
-        "hint": null,
+        "hint": "Indicate what type of search is needed here.",
         "codedValues": [],
         "range": [],
         "showScanner": false
@@ -14001,12 +13444,83 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
         },
         "type": "userDefined",
         "name": null,
+        "inputMask": null,
+        "multiline": false,
+        "hint": null,
+        "codedValues": [],
+        "range": [],
+        "showScanner": false
+      },
+      "mode": "button"
+    },
+    {
+      "autoCompleteMaxEntries": 5,
+      "id": "004",
+      "label": "Probability of Viable Victims",
+      "fieldType": "esriFieldTypeString",
+      "required": true,
+      "showEvent": "onEnd",
+      "domain": {
+        "allowOther": false,
+        "dateTime": {
+          "defaultValue": null,
+          "displayTime": true,
+          "maxValue": null,
+          "minValue": null
+        },
+        "dynamicList": {
+          "dataSourceId": null,
+          "outFields": null,
+          "where": null,
+          "whereComponents": null,
+          "orderByFields": null,
+          "parameters": null,
+          "updateMode": null
+        },
+        "type": "codedValue",
+        "name": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb_viable_victim",
+        "inputMask": null,
+        "multiline": false,
+        "hint": null,
+        "codedValues": [],
+        "range": [],
+        "showScanner": false
+      },
+      "mode": "button"
+    },
+    {
+      "autoCompleteMaxEntries": 5,
+      "id": "0011",
+      "label": "Structure Risk Rating ",
+      "fieldType": "esriFieldTypeString",
+      "required": true,
+      "showEvent": "onEnd",
+      "domain": {
+        "allowOther": false,
+        "dateTime": {
+          "defaultValue": null,
+          "displayTime": true,
+          "maxValue": null,
+          "minValue": null
+        },
+        "dynamicList": {
+          "dataSourceId": null,
+          "outFields": null,
+          "where": null,
+          "whereComponents": null,
+          "orderByFields": null,
+          "parameters": null,
+          "updateMode": null
+        },
+        "type": "codedValue",
+        "name": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb_struct_rating",
         "inputMask": null,
         "multiline": false,
         "hint": null,
@@ -14035,6 +13549,7 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
@@ -14043,7 +13558,7 @@
         "name": null,
         "inputMask": null,
         "multiline": true,
-        "hint": "Enter general comments regarding this entry.",
+        "hint": "Enter general comments regarding this entry. IMPORTANT: DO NOT enter personally identifiable victim/survivor information.",
         "codedValues": [],
         "range": [],
         "showScanner": false
@@ -14055,7 +13570,7 @@
       "id": "0020",
       "label": "Worksite Comments",
       "fieldType": "esriFieldTypeString",
-      "required": false,
+      "required": true,
       "showEvent": "onEnd",
       "domain": {
         "allowOther": false,
@@ -14069,6 +13584,7 @@
           "dataSourceId": null,
           "outFields": null,
           "where": null,
+          "whereComponents": null,
           "orderByFields": null,
           "parameters": null,
           "updateMode": null
@@ -14083,6 +13599,41 @@
         "showScanner": false
       },
       "mode": "button"
+    },
+    {
+      "autoCompleteMaxEntries": 5,
+      "id": "0022",
+      "label": "Follow-Up Priority",
+      "fieldType": "esriFieldTypeString",
+      "required": true,
+      "showEvent": "onEnd",
+      "domain": {
+        "allowOther": false,
+        "dateTime": {
+          "defaultValue": null,
+          "displayTime": true,
+          "maxValue": null,
+          "minValue": null
+        },
+        "dynamicList": {
+          "dataSourceId": null,
+          "outFields": null,
+          "where": null,
+          "whereComponents": null,
+          "orderByFields": null,
+          "parameters": null,
+          "updateMode": null
+        },
+        "type": "codedValue",
+        "name": "9fc9ab82-9686-4c9d-b577-dd0e391dc002_followup_priority",
+        "inputMask": null,
+        "multiline": false,
+        "hint": null,
+        "codedValues": [],
+        "range": [],
+        "showScanner": false
+      },
+      "mode": "button"
     }
   ],
   "arcadeExpressions": [
@@ -14091,7 +13642,7 @@
       "label": "Incident Name",
       "expression": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
       "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
-      "expression_display": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\n  \"event_name\"\n]);\nvar incidentname = First(Intersects($feature, incidentarea));\nif (!IsEmpty(incidentname)) {\n  return incidentname[\"event_name\"];\n} else {\n  return null;\n}\n"
+      "expression_display": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);\nvar incidentname = First(Intersects($feature, incidentarea));\nif (!IsEmpty(incidentname)) {\n  return incidentname[\"event_name\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "002",
@@ -14110,30 +13661,30 @@
     {
       "id": "004",
       "label": "Incident Area",
-      "expression": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [  \"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
+      "expression": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
       "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
-      "expression_display": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [\"event_name\"]); \r\nvar incidentname = First(Intersects($feature, incidentarea)); \r\nif (!IsEmpty(incidentname)) { return incidentname[\"event_name\"]; } else { return null; }"
+      "expression_display": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);\nvar incidentname = First(Intersects($feature, incidentarea));\nif (!IsEmpty(incidentname)) {\n  return incidentname[\"event_name\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "005",
       "label": "Division",
-      "expression": "var division = FeatureSetByName($map, \"SARCOP Divisions\", [\"division\"]);var divisionname = First(Intersects($feature, division));if (!IsEmpty(divisionname)) {  return divisionname[\"division\"];} else {  return null;}",
+      "expression": "var division = FeatureSetByName($map, \"Divisions\", [\"division\"]);var divisionname = First(Intersects($feature, division));if (!IsEmpty(divisionname)) {  return divisionname[\"division\"];} else {  return null;}",
       "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
-      "expression_display": "var division = FeatureSetByName($map, \"SARCOP Divisions\", [\"division\"]); \r\nvar divisionname = First(Intersects($feature, division)); \r\nif (!IsEmpty(divisionname)) { return divisionname[\"division\"]; } else { return null; }"
+      "expression_display": "var division = FeatureSetByName($map, \"Divisions\", [\"division\"]);\nvar divisionname = First(Intersects($feature, division));\nif (!IsEmpty(divisionname)) {\n  return divisionname[\"division\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "006",
       "label": "Branch",
-      "expression": "var branch = FeatureSetByName($map, \"SARCOP Branches\", [\"branch\"]);var branchname = First(Intersects($feature, branch));if (!IsEmpty(branchname)) {  return branchname[\"branch\"];} else {  return null;}",
+      "expression": "var branch = FeatureSetByName($map, \"Branches\", [\"branch\"]);var branchname = First(Intersects($feature, branch));if (!IsEmpty(branchname)) {  return branchname[\"branch\"];} else {  return null;}",
       "dataSourceId": "90a77ce3-3c58-40b8-84a5-8e44b69c88fb",
-      "expression_display": "var branch = FeatureSetByName($map, \"SARCOP Branches\", [\"branch\"]); \r\nvar branchname = First(Intersects($feature, branch)); \r\nif (!IsEmpty(branchname)) { return branchname[\"branch\"]; } else { return null; }"
+      "expression_display": "var branch = FeatureSetByName($map, \"Branches\", [\"branch\"]);\nvar branchname = First(Intersects($feature, branch));\nif (!IsEmpty(branchname)) {\n  return branchname[\"branch\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "007",
-      "label": "Inicident Area",
-      "expression": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [  \"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
+      "label": "Incident Area",
+      "expression": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
       "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
-      "expression_display": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [\"event_name\"]); \r\nvar incidentname = First(Intersects($feature, incidentarea)); \r\nif (!IsEmpty(incidentname)) { return incidentname[\"event_name\"]; } else { return null; }"
+      "expression_display": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);\nvar incidentname = First(Intersects($feature, incidentarea));\nif (!IsEmpty(incidentname)) {\n  return incidentname[\"event_name\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "008",
@@ -14159,9 +13710,9 @@
     {
       "id": "0011",
       "label": "Incident Name",
-      "expression": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [  \"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
+      "expression": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);var incidentname = First(Intersects($feature, incidentarea));if (!IsEmpty(incidentname)) {  return incidentname[\"event_name\"];} else {  return null;}",
       "dataSourceId": "895cf171-95db-4679-9e16-e0e3c9eb6fd9",
-      "expression_display": "var incidentarea = FeatureSetByName($map, \"SARCOP Incident Area\", [\"event_name\"]); \r\nvar incidentname = First(Intersects($feature, incidentarea)); \r\nif (!IsEmpty(incidentname)) { return incidentname[\"event_name\"]; } else { return null; }"
+      "expression_display": "var incidentarea = FeatureSetByName($map, \"Incident Area\", [\"event_name\"]);\nvar incidentname = First(Intersects($feature, incidentarea));\nif (!IsEmpty(incidentname)) {\n  return incidentname[\"event_name\"];\n} else {\n  return null;\n}\n"
     },
     {
       "id": "0012",
@@ -14169,7 +13720,14 @@
       "expression": "var distance = LengthGeodetic($feature, \"miles\");return Round(distance, 2);",
       "dataSourceId": "db35bd1c-5f92-4944-9893-1a3e60ba08bf",
       "expression_display": "var distance = LengthGeodetic($feature, \"miles\");\nreturn Round(distance, 2);\n"
+    },
+    {
+      "id": "0013",
+      "label": "Worksite with Human Interaction",
+      "expression": "var workSite = FeatureSetByName($map, \"Worksites\");var bufferedLocation = Buffer($feature, 500, \"feet\");var candidateSites = Intersects(workSite, bufferedLocation);var featuresWithDistances = [];for (var f in candidateSites) {  Push(featuresWithDistances, {    distance: Distance($feature, f, \"feet\"),    feature: f  });}function sortByDistance(a, b) {  return a[\"distance\"] - b[\"distance\"];}var sorted = Sort(featuresWithDistances, sortByDistance);var closestFeatureWithDistance = First(sorted);if (IsEmpty(closestFeatureWithDistance)) {  return null;}return closestFeatureWithDistance[\"feature\"][\"worksite_id\"];",
+      "dataSourceId": "9fc9ab82-9686-4c9d-b577-dd0e391dc002",
+      "expression_display": "// Get the Worksite Layer\nvar workSite = FeatureSetByName($map, \"Worksites\");\n// Buffer the current location and intersect with the bus stops\nvar bufferedLocation = Buffer($feature, 500, \"feet\");\nvar candidateSites = Intersects(workSite, bufferedLocation);\n// Calculate the distance between the bus stops and the current location\n// Store the feature and distance as a dictionary and push it into an array\nvar featuresWithDistances = [];\nfor (var f in candidateSites) {\n  Push(featuresWithDistances, {\n    distance: Distance($feature, f, \"feet\"),\n    feature: f\n  });\n}\n// Sort the candidate worksites by distance using a custom function\nfunction sortByDistance(a, b) {\n  return a[\"distance\"] - b[\"distance\"];\n}\nvar sorted = Sort(featuresWithDistances, sortByDistance);\n// Get the worksite\nvar closestFeatureWithDistance = First(sorted);\n// If there was worksite, return null\nif (IsEmpty(closestFeatureWithDistance)) {\n  return null;\n}\n// Return the worksite id attribute value\nreturn closestFeatureWithDistance[\"feature\"][\"worksite_id\"];\n"
     }
   ],
-  "version": "1.21.0"
+  "version": "1.23.0"
 }
